@@ -1,5 +1,5 @@
 import random
-
+import seaborn as sns
 class Academia:
     def __init__(self):
         self.halteres = [i for i in range(10, 36) if i % 2 == 0]
@@ -72,8 +72,6 @@ for k in range(10):
         for user in users:
             user.end()
     list_caos += [academia.caos()]
-
-import seaborn as sns
 
 # sns.histplot(list_caos, kde=True)
 
